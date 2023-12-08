@@ -11,17 +11,13 @@ const App = () => {
             "sidebar main"`,
       }}
     >
-      <GridItem area={"nav"} bg="pink">
+      <GridItem area={"nav"}>
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem area={"sidebar"} bg="green">
-          SideBar
-        </GridItem>
+        <GridItem area={"sidebar"}>SideBar</GridItem>
       </Show>
-      <GridItem area={"main"} bg="blue">
-        Main
-      </GridItem>
+      <GridItem area={"main"}>Main</GridItem>
     </Grid>
   );
 };
